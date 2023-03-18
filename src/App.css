@@ -1,3 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap");
+
+:root {
+  /* || font weights || */
+  --fwt-light: 300;
+  --fwt-regular: 400;
+  --fwt-bold: 700;
+  --fwt-heavy: 900;
+}
+
 *,
 *:before,
 *:after {
@@ -13,6 +23,7 @@ html {
 
 body {
   font-size: 1.6rem;
+  font-family: "Roboto", sans-serif;
 }
 
 html,
