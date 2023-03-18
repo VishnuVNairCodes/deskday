@@ -1,0 +1,14 @@
+{
+  "employees": [
+    {
+      "id": "1234dhsjalsljsj",
+      "firstName": "John",
+      "lastName": "Doe",
+      "email": "john@gmail.com",
+      "mobileNumber": "+1 636 1234567",
+      "officeDeskNumber": "+1 434 9876543",
+      "designation": "Procurement Executive",
+      "department": "Purchase"
+    }
+  ]
+}
