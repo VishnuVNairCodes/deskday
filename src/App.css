@@ -39,3 +39,22 @@ body,
 .app {
   height: 100%;
 }
+
+.app {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-rows: auto 1fr;
+}
+
+.sidebar {
+  background-color: black;
+  grid-row: 1/-1;
+}
+
+.header {
+  background-color: teal;
+}
+
+.main {
+  background-color: blueviolet;
+}
