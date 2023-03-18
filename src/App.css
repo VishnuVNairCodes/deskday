@@ -7,6 +7,9 @@
   --fwt-regular: 400;
   --fwt-bold: 700;
   --fwt-heavy: 900;
+
+  /* || colors || */
+  --clr-font-default: #1c1e26;
 }
 
 *,
@@ -25,6 +28,9 @@ html {
 body {
   font-size: 1.6rem;
   font-family: "Roboto", sans-serif;
+  line-height: 1;
+  font-weight: var(--fwt-regular);
+  color: var(--clr-font-default);
 }
 
 html,
