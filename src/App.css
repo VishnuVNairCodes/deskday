@@ -46,7 +46,7 @@ body,
   grid-template-rows: auto 1fr;
 }
 
-.sidebar {
+.aside {
   background-color: black;
   grid-row: 1/-1;
 }
