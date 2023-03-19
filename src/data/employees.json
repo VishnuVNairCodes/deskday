@@ -6,6 +6,7 @@
       "lastName": "Doe",
       "email": "john@gmail.com",
       "mobileNumber": "+1 636 1234567",
+      "profileImage": "https://s3-alpha-sig.figma.com/img/4fdb/c585/b679078ebb978ff2ed07656c0d5f10be?Expires=1679875200&Signature=KSyp87khtEOMmBgYICmBu6b-1pDtexn9F-CaRVIhxdTAeGyDQaZ3vfCJFAP3ZromwaaenGAb91jEPYuJ5of4bPN2Kz-NVKv9NRoXvl5qAQ-yJIuVs-dfMDKQluxotLBQIA4jeNJE8sx7VTl5q16CIaaDT~kqnWhBaewfJS1~sclRe62B6-kQJhkHvckr3iYB6ipxzzE40NGL0f~EMRrtLodu3PJsGb7KhKnsEXWq0EerWsANuGBtCTJPc5uLDkNC2b-Jp9YewLl-ZFO2pCAcBHn1DbfIK369hjGUVUKr0JzmvR2tOJCUO1afKxDA~oAIXmtMaTSlqCMnU-4cjTOrng__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
       "officeDeskNumber": "+1 434 9876543",
       "designation": "Procurement Executive",
       "department": "Purchase"
