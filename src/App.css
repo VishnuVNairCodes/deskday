@@ -22,9 +22,10 @@
   --clr-nav-link-inactive: #767b85;
   --clr-nav-border: #ededed;
   --clr-employee-card-email: #767b85;
-  --clr-employee-card-change-profile: #5563f5;
+  --clr-action: #5563f5;
   --clr-fieldset-border: #e3e3e3;
   --clr-fieldset-value: #767b85;
+  --clr-profile-save-changes-bg: rgba(0, 0, 0, 0.05);
 
   /* || shadows || */
   --sdw-aside-logout: 2px 2px 2rem 0 rgba(0, 0, 0.08);

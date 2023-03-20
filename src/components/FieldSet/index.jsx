@@ -4,7 +4,7 @@ const FieldSet = ({ fieldName, fieldData }) => {
   return (
     <fieldset className="fieldset">
       <legend className="fieldset-legend">{fieldName}</legend>
-      <input className="fieldset-input" value={fieldData} />
+      <input className="fieldset-input" value={fieldData} readOnly />
     </fieldset>
   );
 };

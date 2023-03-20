@@ -1,6 +1,8 @@
 .profile-container {
   padding-top: 4rem;
   padding-left: 3.2rem;
+  position: relative;
+  height: 100%;
 }
 
 .profile-heading {
@@ -43,7 +45,7 @@
   align-items: center;
   gap: 8px;
   font-weight: var(--fwt-semi-bold);
-  color: var(--clr-employee-card-change-profile);
+  color: var(--clr-action);
   margin-top: 6px;
   cursor: pointer;
 }
@@ -51,4 +53,42 @@
 /* || EMPLOYEE DETAILS || */
 .employee-details-container {
   margin-top: 5.6rem;
+  display: grid;
+  grid-template-columns: repeat(2, 20.4rem);
+  grid-template-rows: repeat(3, 3.2rem);
+  gap: 2.4rem;
+}
+
+/* || PROFILE SAVE CHANGES || */
+.profile-save-changes-btn-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 4.4rem;
+  padding: 1.2rem 9.3rem;
+  background-color: var(--clr-profile-save-changes-bg);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.profile-cancel-btn,
+.profile-save-btn {
+  font-size: 1.4rem;
+  line-height: 2rem;
+  font-weight: var(--fwt-semi-bold);
+  border: none;
+}
+
+.profile-cancel-btn {
+  color: var(--clr-action);
+  background-color: transparent;
+}
+
+.profile-save-btn {
+  color: var(--clr-white);
+  background-color: var(--clr-action);
+  padding: 1.4rem 3.2rem;
+  border-radius: var(--br-regular);
 }
