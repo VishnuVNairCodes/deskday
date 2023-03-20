@@ -1,0 +1,53 @@
+.aside {
+  display: flex;
+  flex-direction: column;
+  color: var(--clr-white);
+  gap: 2.4rem;
+  padding: 2.4rem 1.6rem 1.6rem 1.6rem;
+}
+
+/* || ASIDE HEADER || */
+.aside-header {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}
+
+.aside-logo {
+  height: 2.4rem;
+}
+
+.btn-aside-notification {
+  font-size: 1.6rem;
+  color: var(--clr-white);
+  margin-left: auto;
+  position: relative;
+}
+
+.btn-aside-notification::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: var(--clr-badge-notification);
+}
+
+/* || ASIDE OPTIONS || */
+.aside-options-heading {
+  font-size: 1.6rem;
+  line-height: 2.2rem;
+  font-weight: var(--fwt-bold);
+  background: var(--clr-aside-options-heading);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.aside-option-border {
+  height: 1px;
+  background-color: var(--clr-aside-option-border);
+  margin-top: 1.6rem;
+}
