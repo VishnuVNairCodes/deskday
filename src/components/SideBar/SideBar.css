@@ -40,8 +40,14 @@
   font-size: 1.6rem;
   line-height: 2.2rem;
   font-weight: var(--fwt-bold);
-  background: radial-gradient(#4652cd 0%, #46cbea 100%);
+  background: var(--clr-aside-options-heading);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.aside-option-border {
+  height: 1px;
+  background-color: var(--clr-aside-option-border);
+  margin-top: 1.6rem;
 }

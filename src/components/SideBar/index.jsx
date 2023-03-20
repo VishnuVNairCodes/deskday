@@ -1,6 +1,7 @@
 import { Search } from "../Search";
 import { AsideLogout } from "../AsideLogout";
 import "./SideBar.css";
+import { AsideOption } from "../AsideOption";
 
 const SideBar = () => {
   return (
@@ -17,9 +18,10 @@ const SideBar = () => {
       </header>
       <Search />
       <div className="aside-options-container">
-        <div className="aside-options-heading">Service Desk</div>
-        <div className="aside-option">My Tickets</div>
-        <div className="aside-option">My Requests</div>
+        <h6 className="aside-options-heading">Service Desk</h6>
+        <AsideOption option="My Tickets" />
+        <div className="aside-option-border"></div>
+        <AsideOption option="My Requests" />
       </div>
       <AsideLogout />
     </aside>

@@ -1,0 +1,13 @@
+.aside-option-container {
+  display: flex;
+  margin-top: 2rem;
+  font-size: 1rem;
+  line-height: 1.6rem;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  font-weight: var(--fwt-bold);
+}
+
+.aside-option-dropdown {
+  margin-left: auto;
+}
