@@ -1,0 +1,13 @@
+.app-body {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  background-color: blueviolet;
+}
+
+.nav {
+  background-color: bisque;
+}
+
+.main {
+  background-color: aquamarine;
+}
