@@ -13,6 +13,7 @@
   --clr-font-default: #1c1e26;
   --clr-white: #fff;
   --clr-badge-notification: #da1e28;
+  --clr-search-bg: rgba(255, 255, 255, 0.25);
 
   /* || shadows || */
   --sdw-aside-logout: 2px 2px 2rem 0 rgba(0, 0, 0.08);

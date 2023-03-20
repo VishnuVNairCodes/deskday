@@ -1,4 +1,5 @@
-import { AsideLogout } from "./components/AsideLogout";
+import { Search } from "../Search";
+import { AsideLogout } from "../AsideLogout";
 import "./SideBar.css";
 
 const SideBar = () => {
@@ -14,7 +15,7 @@ const SideBar = () => {
           <i className="fa-regular fa-bell"></i>
         </button>
       </header>
-      <div className="aside-search">Search</div>
+      <Search />
       <div className="aside-options-container">
         <div className="aside-options-heading">Service Desk</div>
         <div className="aside-option">My Tickets</div>
