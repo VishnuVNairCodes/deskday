@@ -6,6 +6,7 @@
   padding: 2.4rem 1.6rem 1.6rem 1.6rem;
 }
 
+/* || ASIDE HEADER || */
 .aside-header {
   display: flex;
   align-items: center;
@@ -32,4 +33,15 @@
   height: 8px;
   border-radius: 50%;
   background-color: var(--clr-badge-notification);
+}
+
+/* || ASIDE OPTIONS || */
+.aside-options-heading {
+  font-size: 1.6rem;
+  line-height: 2.2rem;
+  font-weight: var(--fwt-bold);
+  background: radial-gradient(#4652cd 0%, #46cbea 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
