@@ -12,6 +12,7 @@
   /* || colors || */
   --clr-font-default: #1c1e26;
   --clr-white: #fff;
+  --clr-badge-notification: #da1e28;
 
   /* || shadows || */
   --sdw-aside-logout: 2px 2px 2rem 0 rgba(0, 0, 0.08);
