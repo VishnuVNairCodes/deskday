@@ -1,0 +1,20 @@
+.header {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+  padding: 2rem 3.2rem;
+}
+
+.btn-header-back {
+  width: 4rem;
+  height: 4rem;
+  border: 1px solid var(--clr-btn-header-back-border);
+  border-radius: 50%;
+}
+
+.header-heading {
+  font-size: 1.6rem;
+  font-weight: var(--fwt-regular);
+  line-height: 2.4rem;
+  color: var(--clr-header-heading);
+}
