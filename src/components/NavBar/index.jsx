@@ -8,8 +8,8 @@ const NavBar = () => {
     borderBottom: isActive ? "4px solid transparent" : "none",
     background: isActive ? "var(--clr-gradient-text)" : "",
     backgroundClip: isActive ? "text" : "",
-    webkitBackgroundClip: isActive ? "text" : "",
-    webkitTextFillColor: isActive ? "transparent" : "",
+    WebkitBackgroundClip: isActive ? "text" : "",
+    WebkitTextFillColor: isActive ? "transparent" : "",
   });
   return (
     <nav className="nav">
