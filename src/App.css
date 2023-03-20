@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css");
 
 /* || GENERAL || */
@@ -6,6 +6,7 @@
   /* || font weights || */
   --fwt-light: 300;
   --fwt-regular: 400;
+  --fwt-semi-bold: 500;
   --fwt-bold: 700;
   --fwt-heavy: 900;
 
@@ -14,10 +15,12 @@
   --clr-white: #fff;
   --clr-badge-notification: #da1e28;
   --clr-search-bg: rgba(255, 255, 255, 0.25);
-  --clr-aside-options-heading: radial-gradient(#4652cd 0%, #46cbea 100%);
+  --clr-gradient-text: radial-gradient(#4652cd 0%, #46cbea 100%);
   --clr-aside-option-border: rgba(255, 255, 255, 0.15);
   --clr-btn-header-back-border: #ccc;
   --clr-header-heading: #171d41;
+  --clr-nav-link-inactive: #767b85;
+  --clr-nav-border: #ededed;
 
   /* || shadows || */
   --sdw-aside-logout: 2px 2px 2rem 0 rgba(0, 0, 0.08);
@@ -67,12 +70,6 @@ body,
 .app-body {
   display: grid;
   grid-template-rows: auto 1fr;
-  background-color: blueviolet;
-}
-
-/* || NAV || */
-.nav {
-  background-color: bisque;
 }
 
 /* || BUTTON || */

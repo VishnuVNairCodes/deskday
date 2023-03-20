@@ -1,6 +1,7 @@
 import "./App.css";
 import { Header } from "./components/Header";
 import { Main } from "./components/Main";
+import { NavBar } from "./components/NavBar";
 import { SideBar } from "./components/SideBar";
 
 function App() {
@@ -9,7 +10,7 @@ function App() {
       <SideBar />
       <Header />
       <div className="app-body">
-        <nav className="nav">Haha</nav>
+        <NavBar />
         <Main />
       </div>
     </div>
