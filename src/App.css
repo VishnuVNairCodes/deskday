@@ -62,10 +62,6 @@ body,
   grid-row: 1/-1;
 }
 
-.main {
-  background-color: blueviolet;
-}
-
 /* || BUTTON || */
 .btn-icon {
   border: none;
