@@ -1,5 +1,5 @@
-import { useAuth } from "../../../../contexts/auth-context";
-import { Avatar } from "../../../Avatar";
+import { useAuth } from "../../contexts/auth-context";
+import { Avatar } from "../Avatar";
 import "./AsideLogout.css";
 
 const AsideLogout = () => {
