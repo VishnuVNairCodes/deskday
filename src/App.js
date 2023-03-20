@@ -1,11 +1,12 @@
 import "./App.css";
+import { Header } from "./components/Header";
 import { SideBar } from "./components/SideBar";
 
 function App() {
   return (
     <div className="app">
       <SideBar />
-      <div className="header">header</div>
+      <Header />
       <div className="main">body</div>
     </div>
   );

@@ -16,6 +16,8 @@
   --clr-search-bg: rgba(255, 255, 255, 0.25);
   --clr-aside-options-heading: radial-gradient(#4652cd 0%, #46cbea 100%);
   --clr-aside-option-border: rgba(255, 255, 255, 0.15);
+  --clr-btn-header-back-border: #ccc;
+  --clr-header-heading: #171d41;
 
   /* || shadows || */
   --sdw-aside-logout: 2px 2px 2rem 0 rgba(0, 0, 0.08);
@@ -58,10 +60,6 @@ body,
 .aside {
   background-color: black;
   grid-row: 1/-1;
-}
-
-.header {
-  background-color: teal;
 }
 
 .main {
