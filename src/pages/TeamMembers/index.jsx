@@ -1,3 +1,3 @@
-const TeamMembers = () => <h1>Team Members</h1>;
+const TeamMembers = () => <h2>Team Members</h2>;
 
 export { TeamMembers };

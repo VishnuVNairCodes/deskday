@@ -1,3 +1,3 @@
-const General = () => <h1>General</h1>;
+const General = () => <h2>General</h2>;
 
 export { General };
