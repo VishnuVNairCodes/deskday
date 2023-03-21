@@ -79,6 +79,7 @@
   line-height: 2rem;
   font-weight: var(--fwt-semi-bold);
   border: none;
+  cursor: pointer;
 }
 
 .profile-cancel-btn {
