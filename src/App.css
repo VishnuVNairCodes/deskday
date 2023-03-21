@@ -13,6 +13,7 @@
   /* || colors || */
   --clr-font-default: #1c1e26;
   --clr-white: #fff;
+  --clr-black: #000;
   --clr-badge-notification: #da1e28;
   --clr-search-bg: rgba(255, 255, 255, 0.25);
   --clr-aside-options-heading: radial-gradient(
@@ -21,6 +22,7 @@
     #46cbea 100%
   );
   --clr-aside-option-border: rgba(255, 255, 255, 0.15);
+  --clr-aside-bg-overlay: hsla(0, 0%, 0%, 0.8);
   --clr-btn-header-back-border: #ccc;
   --clr-header-heading: #171d41;
   --clr-nav-link-inactive: #767b85;
@@ -62,6 +64,7 @@ body {
   line-height: 1;
   font-weight: var(--fwt-regular);
   color: var(--clr-font-default);
+  overflow: hidden;
 }
 
 html,
@@ -75,12 +78,6 @@ body,
   display: grid;
   grid-template-columns: auto 1fr;
   grid-template-rows: auto 1fr;
-}
-
-/* || ASIDE || */
-.aside {
-  background-color: black;
-  grid-row: 1/-1;
 }
 
 /* || APP BODY || */
