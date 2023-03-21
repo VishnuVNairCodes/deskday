@@ -2,17 +2,25 @@ import { NavLink } from "react-router-dom";
 import "./NavBar.css";
 
 const NavBar = () => {
-  const getActiveStyle = ({ isActive }) => ({
-    color: isActive ? "" : "var(--clr-nav-link-inactive)",
-    fontWeight: isActive ? "var(--fwt-semi-bold)" : "var(--fwt-regular)",
-    borderBottom: isActive ? "4px solid transparent" : "none",
-    background: isActive
-      ? "radial-gradient(94.76% 4003.41% at 5.24% 29.55%, #4652CD 0%, #46CBEA 100%)"
-      : "",
-    backgroundClip: isActive ? "text" : "",
-    WebkitBackgroundClip: isActive ? "text" : "",
-    WebkitTextFillColor: isActive ? "transparent" : "",
-  });
+  const getActiveStyle = ({ isActive }) =>
+    isActive
+      ? {
+          color: "",
+          fontWeight: "var(--fwt-semi-bold)",
+          background: "var(--clr-nav-link-active)",
+          backgroundClip: "text",
+          WebkitBackgroundClip: "text",
+          WebkitTextFillColor: "transparent",
+          paddingBottom: "8px",
+          borderBottom: "4px solid transparent",
+          borderImage: "var(--clr-nav-link-active)",
+          borderImageSlice: "1",
+          width: "100%",
+        }
+      : {
+          color: "var(--clr-nav-link-inactive)",
+          fontWeight: "var(--fwt-regular)",
+        };
   return (
     <nav className="nav">
       <ul className="nav-list">
