@@ -40,7 +40,7 @@
   font-size: 1.6rem;
   line-height: 2.2rem;
   font-weight: var(--fwt-bold);
-  background: var(--clr-gradient-text);
+  background: var(--clr-aside-options-heading);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;

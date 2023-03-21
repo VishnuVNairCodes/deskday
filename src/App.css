@@ -15,11 +15,20 @@
   --clr-white: #fff;
   --clr-badge-notification: #da1e28;
   --clr-search-bg: rgba(255, 255, 255, 0.25);
-  --clr-gradient-text: radial-gradient(#4652cd 0%, #46cbea 100%);
+  --clr-aside-options-heading: radial-gradient(
+    140.1% 5911.46% at 135.94% 77.27%,
+    #4652cd 0%,
+    #46cbea 100%
+  );
   --clr-aside-option-border: rgba(255, 255, 255, 0.15);
   --clr-btn-header-back-border: #ccc;
   --clr-header-heading: #171d41;
   --clr-nav-link-inactive: #767b85;
+  --clr-nav-link-active: radial-gradient(
+    94.76% 4003.41% at 5.24% 29.55%,
+    #4652cd 0%,
+    #46cbea 100%
+  );
   --clr-nav-border: #ededed;
   --clr-employee-card-email: #767b85;
   --clr-action: #5563f5;
