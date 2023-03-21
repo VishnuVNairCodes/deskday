@@ -1,13 +1,15 @@
 import "./App.css";
-import { Header } from "./components/Header";
-import { SideBar } from "./components/SideBar";
+import { Header, Main, NavBar, SideBar } from "./components";
 
 function App() {
   return (
     <div className="app">
       <SideBar />
       <Header />
-      <div className="main">body</div>
+      <div className="app-body">
+        <NavBar />
+        <Main />
+      </div>
     </div>
   );
 }

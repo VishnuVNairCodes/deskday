@@ -1,0 +1,19 @@
+.nav {
+  padding: 8px 0 0 3.2rem;
+  border: 1px solid var(--clr-nav-border);
+}
+
+.nav-list {
+  display: flex;
+  gap: 2.4rem;
+  list-style: none;
+  font-size: 1.6rem;
+  font-weight: var(--fwt-regular);
+  line-height: 2.4rem;
+  padding-bottom: 8px;
+}
+
+.nav-list-item-link {
+  text-decoration: none;
+  color: var(--clr-nav-link);
+}

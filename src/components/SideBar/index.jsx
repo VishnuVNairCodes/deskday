@@ -1,7 +1,7 @@
-import { Search } from "../Search";
-import { AsideLogout } from "../AsideLogout";
+import { Search } from "..";
+import { AsideLogout } from "..";
+import { AsideOption } from "..";
 import "./SideBar.css";
-import { AsideOption } from "../AsideOption";
 
 const SideBar = () => {
   return (

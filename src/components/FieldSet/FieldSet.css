@@ -1,0 +1,21 @@
+.fieldset {
+  display: flex;
+  align-items: center;
+  padding: 8px 1.6rem;
+  border-radius: var(--br-regular);
+  border: 1px solid var(--clr-fieldset-border);
+}
+
+.fieldset-legend {
+  font-size: 1rem;
+  font-weight: var(--fwt-heavy);
+  letter-spacing: 0.5px;
+}
+
+.fieldset-input {
+  border: none;
+  outline: none;
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+  color: var(--clr-fieldset-value);
+}
